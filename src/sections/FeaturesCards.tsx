@@ -1,3 +1,5 @@
+import TextBtn from '../components/TextBtn';
+
 const cardData = [
   {
     image: '/assets/images/pill.png',
@@ -65,10 +67,7 @@ const FeaturesCards = () => {
                 </h3>
                 <p className='text-lg text-zinc-400 mt-4'>{description}</p>
                 <div className='flex justify-between mt-12'>
-                  <button
-                    className={`text-sm font-heading uppercase font-extrabold tracking-wider text-${color}-500`}>
-                    Learn More
-                  </button>
+                  <TextBtn color={color}>Learn More</TextBtn>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     fill='none'
