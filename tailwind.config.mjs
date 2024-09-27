@@ -1,25 +1,33 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
+  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  safelist: [
+    {
+      pattern: /bg-(fuchsia|lime|cyan|violet)-(400|500)/,
+    },
+    {
+      pattern: /text-(fuchsia|lime|cyan|violet)-500/,
+    },
+  ],
   theme: {
     screens: {
-      sm: "375px",
-      md: "768px",
-      lg: "1200px",
+      sm: '375px',
+      md: '768px',
+      lg: '1200px',
     },
     fontFamily: {
-      heading: "Inter, sans-serif",
-      body: "Karla, sans-serif",
+      heading: 'Inter, sans-serif',
+      body: 'Karla, sans-serif',
     },
     container: {
       center: true,
       padding: {
-        sm: "1.5rem",
-        md: "2rem",
-        lg: "5.5rem",
+        sm: '1.5rem',
+        md: '2rem',
+        lg: '5.5rem',
       },
     },
     extend: {},
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [require('@tailwindcss/typography')],
 };
