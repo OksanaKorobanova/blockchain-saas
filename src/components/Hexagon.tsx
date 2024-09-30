@@ -1,7 +1,6 @@
 import { type ComponentPropsWithoutRef } from 'react';
 
-const Hexagon = (props: ComponentPropsWithoutRef<'svg'>) => {
-  const { className } = props;
+const Hexagon = ({ className }: ComponentPropsWithoutRef<'svg'>) => {
   return (
     <svg
       width='82'
