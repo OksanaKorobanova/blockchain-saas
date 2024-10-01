@@ -23,9 +23,9 @@ const latestPosts = posts
   <Header />
   <Hero client:load />
   <FeaturesCards client:load />
-  <FeaturesGrid />
-  <LatestPosts latestPosts={latestPosts} />
-  <Testimonials />
-  <CallToAction />
+  <FeaturesGrid client:load />
+  <LatestPosts latestPosts={latestPosts} client:load />
+  <Testimonials client:load />
+  <CallToAction client:load />
   <Footer />
 </DefaultLayout>
