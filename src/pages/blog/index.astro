@@ -1,7 +1,20 @@
 ---
+import DefaultLayout from '../../layouts/Default.astro';
+import Header from '../../sections/Header';
+
 // import { getCollection } from 'astro:content';
 
 // const posts = (await getCollection('blog')).sort(
 // 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 // );
 ---
+
+<DefaultLayout>
+  <Header client:load />
+  <div>
+    <!-- Hero Section -->
+  </div>
+  <div>
+    <!-- Blog Posts -->
+  </div>
+</DefaultLayout>

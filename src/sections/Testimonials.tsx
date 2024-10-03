@@ -1,7 +1,5 @@
 import { motion } from 'framer-motion';
 
-type Props = {};
-
 const testimonials = [
   {
     text: 'The user experience is phenomenal, and the support team is always there to help. Highly recommended!',
@@ -23,7 +21,7 @@ const testimonials = [
   },
 ];
 
-const Testimonials = (props: Props) => {
+const Testimonials = () => {
   return (
     <section className='py-32 bg-zinc-800'>
       <div className='container'>

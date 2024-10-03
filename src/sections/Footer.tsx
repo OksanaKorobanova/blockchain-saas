@@ -1,5 +1,3 @@
-type Props = {};
-
 const socialIcons = [
   {
     icon: (
@@ -36,7 +34,7 @@ const socialIcons = [
   },
 ];
 
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <footer className='py-24 bg-zinc-950'>
       <div className='container'>

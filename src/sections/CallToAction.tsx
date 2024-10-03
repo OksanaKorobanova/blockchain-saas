@@ -4,9 +4,7 @@ import CutCornerButton from '../components/CutCornerButton';
 import Hexagon from '../components/Hexagon';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
-type Props = {};
-
-const CallToAction = (props: Props) => {
+const CallToAction = () => {
   const sectionRef = useRef(null);
 
   const { scrollYProgress } = useScroll({
