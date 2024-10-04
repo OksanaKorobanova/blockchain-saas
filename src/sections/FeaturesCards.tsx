@@ -58,16 +58,14 @@ const FeaturesCards = () => {
           <div className='flex flex-none gap-8'>
             {cardData.map(({ image, title, description, color }) => (
               <div
+                key={title}
                 className='inline-flex transition-all duration-500'
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
                 style={{
                   transform: `translateX(calc((-100% - 2rem) * ${selectedCardIndex}))`,
                 }}>
-                <Card
-                  key={title}
-                  color={color}
-                  className='max-w-xs md:map-w-md'>
+                <Card color={color} className='max-w-xs md:map-w-md'>
                   <div className='flex justify-center -mt-28'>
                     <div className='inline-flex relative'>
                       <div className='absolute h-4 w-full top-[calc(100%+16px)] bg-zinc-950/70 rounded-[100%] [mask-image:radial-gradient(closest-side,black,transparent)] group-hover:bg-zinc-950/30 transition duration-300' />

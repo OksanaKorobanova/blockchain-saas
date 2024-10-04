@@ -4,9 +4,11 @@ import FeaturesCards from '../sections/FeaturesCards';
 import FeaturesGrid from '../sections/FeaturesGrid';
 import Hero from '../sections/Hero';
 import LatestPosts from '../sections/LatestPosts';
-import { getCollection } from 'astro:content';
+import { getCollection, type CollectionEntry } from 'astro:content';
 
-const posts = await getCollection('blog');
+type Props = CollectionEntry<'blog'>;
+
+const posts: Props[] = await getCollection('blog');
 const latestPosts = posts
   .sort((a, b) => {
     if (a.data.pubDate.valueOf() == b.data.pubDate.valueOf()) return 0;
