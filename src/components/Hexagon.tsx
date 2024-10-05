@@ -1,3 +1,4 @@
+import type { render } from 'astro:content';
 import { motion } from 'framer-motion';
 import {
   useLayoutEffect,

@@ -29,9 +29,9 @@ const Header = () => {
       <header className='sticky z-40 top-0 bg-zinc-900/50 backdrop-blur-lg'>
         <div className='container'>
           <div className='flex justify-between items-center h-24 md:h-28'>
-            <div>
+            <a href='/' className='block'>
               <img src='/assets/images/logo.svg' alt='Blockforge logo' />
-            </div>
+            </a>
             <div className='flex gap-4 items-center'>
               <CutCornerButton className='hidden md:inline-flex'>
                 Get started
