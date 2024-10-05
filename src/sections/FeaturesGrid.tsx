@@ -76,7 +76,7 @@ const FeaturesGrid = () => {
   );
 
   return (
-    <section className='py-24 overflow-x-clip'>
+    <section id='features' className='py-24 overflow-x-clip'>
       <div className='container'>
         <div className='flex flex-col gap-56 md:gap-48 lg:gap-80'>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>

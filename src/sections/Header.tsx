@@ -33,9 +33,11 @@ const Header = () => {
               <img src='/assets/images/logo.svg' alt='Blockforge logo' />
             </a>
             <div className='flex gap-4 items-center'>
-              <CutCornerButton className='hidden md:inline-flex'>
-                Get started
-              </CutCornerButton>
+              <a href='#features' className='block'>
+                <CutCornerButton className='hidden md:inline-flex'>
+                  Get started
+                </CutCornerButton>
+              </a>
               <div
                 className='size-10 relative cursor-pointer'
                 onClick={menuHandler}>
