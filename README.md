@@ -11,13 +11,13 @@ SaaS website built using Astro, React, Tailwind CSS, Typescript. Deployed on Net
 
 ## Screens
 
-![Main page](https://raw.githubusercontent.com/OksanaKorobanova/blockchain-saas/refs/heads/main/public/astro.png)
+![Main page](https://raw.githubusercontent.com/OksanaKorobanova/blockchain-saas/refs/heads/master/public/astro.png)
 
-![Blog page](https://raw.githubusercontent.com/OksanaKorobanova/blockchain-saas/refs/heads/main/public/astro-blog.png)
+![Blog page](https://raw.githubusercontent.com/OksanaKorobanova/blockchain-saas/refs/heads/master/public/astro-blog.png)
 
-![Hiring page](https://raw.githubusercontent.com/OksanaKorobanova/blockchain-saas/refs/heads/main/public/astro-hiring.png)
+![Hiring page](https://raw.githubusercontent.com/OksanaKorobanova/blockchain-saas/refs/heads/master/public/astro-hiring.png)
 
-![Contact page](https://raw.githubusercontent.com/OksanaKorobanova/blockchain-saas/refs/heads/main/public/sass-contacts.png)
+![Contact page](https://raw.githubusercontent.com/OksanaKorobanova/blockchain-saas/refs/heads/master/public/sass-contacts.png)
 
 ## 🚀 Project Structure
 
